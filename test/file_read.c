@@ -53,12 +53,9 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
-
-
     //Stop division by 0
     if (count > 0) {
-        printf("Somme : %.2lf\n", sum);
-        printf("Moyenne : %.2lf\n", sum / count);
+        printf("Moyenne : %.2lf°C\n", sum / count);
     } else {
         fprintf(stderr, "Erreur, aucune valeur dans le fichier des temperatures\n");
         return 1;
