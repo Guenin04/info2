@@ -22,6 +22,7 @@ int main(){
         }
         prev_char = current_char;
     }
+    
     if(current_char == EOF){
         words++;
     }
